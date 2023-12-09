@@ -1,0 +1,650 @@
+/* 10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../fonts/SEGOEUI.TTF);
+}
+[class^="box-"] {
+    display: none;
+}
+
+[class^="box-"].showfirst {
+    display: block;
+}
+
+a:hover,
+.main-link:hover {
+    text-decoration: underline;
+    color: purple !important;
+}
+
+:root {
+    --theme-color: #13063d;
+    --theme-light: #7939fe;
+    --gray-dark: #282828;
+    --default-color: #fff;
+    --black: #000;
+    --font-mont: "mont";
+    --font-poppins: "Poppins", sans-serif;
+    --primary-text: rem;
+    --primary-text-mini: 7rem;
+    --secondary-text: 5.5rem;
+    --text-xl: ;
+    --text-md: 3.5rem;
+    --text-mdb: 2.5rem;
+    --text-sm: 2rem;
+    --hd-sm: 1.8rem;
+    --para-sm: 1.6rem;
+    --text-xs: 1.4rem;
+    --text-16: 1rem;
+    --text-18: 1.2rem;
+    --text-20: 1.4rem;
+    --text-22: 1.6rem;
+    --text-23: 1.7rem;
+    --text-25: 1.9rem;
+    --text-26: 2rem;
+    --shadow-normal: 1px 1px 11px 0px rgb(105 105 177 / 20%);
+    /* font-size: 62.5%; */
+}
+
+/* ::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--theme-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color);
+} */
+
+body {
+    font-family: var(--font-mont);
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--theme-color);
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.aside {
+    border-right: 1.262px solid #ccc;
+    border-left: 1.262px solid #ccc;
+    background: #f4f4f4;
+    padding: 7px;
+    padding-top: 15px;
+    height: 100%;
+    min-height: 800px;
+}
+
+.logo {
+    color: #00e;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32.51px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.search-input {
+    padding: 2px 30px 2px 2px;
+    border-radius: 5.049px;
+    border: 1.262px solid #ccc;
+    background: #fff;
+    margin-top: 30px;
+}
+
+.search-input i {
+    font-size: 1.25rem;
+    color: #bbbbbb;
+    margin-right: 3px;
+}
+
+.search-input input {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.search-input input::placeholder {
+    color: #bbbbbb !important;
+}
+
+.search-input input:focus {
+    outline: none;
+}
+
+.list {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.list a {
+    color: #00e;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: 0.2s;
+}
+
+.navbar {
+    padding: 7px 10px 7px 18px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.262px solid #ccc;
+    border-bottom: 1.262px solid #ccc;
+    background: #eee;
+}
+
+.navbar h3 {
+    color: #222;
+    font-family: Times New Roman;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar ul li a {
+    padding: 2px 5px;
+    color: #00e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.account-div a {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.account-div img {
+    display: block;
+    margin: auto;
+}
+
+#language {
+    width: 70%;
+    margin: auto;
+    display: block;
+    border: 1.262px solid #767676;
+    background: #efefef;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+#language:focus {
+    outline: none;
+}
+
+.main-link,
+.services {
+    color: #00e;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-top: 1.262px solid #ddd;
+    border-bottom: 1.262px solid #ddd;
+    background: transparent;
+}
+
+.aside2 .list {
+    margin-top: 5px;
+}
+
+.aside2 .list a {
+    font-size: 14.137px;
+}
+
+.accordion-button:focus {
+    border-color: #ddd;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #00e;
+    font-weight: 700;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+.accordion {
+    background-color: transparent;
+}
+
+.accordion-item {
+    background-color: transparent;
+}
+
+.services {
+    font-size: 20px;
+    background-color: #eee;
+    font-weight: 700;
+}
+
+.list2 li {
+    width: 43%;
+    border-bottom: 1.262px solid #eaeaea;
+    text-align: left;
+}
+
+.list2 li a {
+    text-align: left;
+}
+
+.footer {
+    /* position: absolute; */
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    background: #eee;
+    padding: 10px 0;
+}
+
+.footer p {
+    color: #222;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+.footer p a {
+    color: #00e;
+    margin-right: 4px;
+}
+.footer p a:nth-child(1) {
+    margin-left: 20px;
+}
+/* Zia CSs */
+
+.login-page {
+    padding-top: 34px;
+}
+.login-head p {
+    font-size: 12px;
+    color: #54616b;
+    font-weight: 400;
+    font-family: "Segoe UI";
+}
+.login-head p a {
+    font-size: 13.5px;
+    font-weight: 400;
+    color: #0000ee;
+    margin-left: 6px;
+    font-family: "Segoe UI";
+}
+.login-head h1 {
+    font-size: 32px;
+    color: #0000ee;
+    font-weight: 400;
+    font-family: "Segoe UI";
+}
+.login-page {
+    background-color: #d9d9d9;
+}
+.form {
+    background-color: white;
+    padding: 34px auto;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+input#email {
+    width: 95%;
+    padding-top: 24px;
+    height: 50px;
+    padding-left: 7px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    color: #cad0d7;
+    font-size: 12px;
+    font-family: "Segoe UI";
+}
+.form-feilds label {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 11px;
+    color: #212529;
+    font-family: "Segoe UI";
+}
+.email {
+    position: relative;
+}
+.form-head h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: "Segoe UI";
+}
+.form-head p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575e64;
+    font-family: "Segoe UI";
+}
+.check {
+    font-size: 16px;
+    color: #575e64;
+    font-family: "Segoe UI";
+}
+.form-options {
+    width: 95%;
+}
+.form-options a {
+    font-size: 16px;
+    color: #0000ee;
+    font-family: "Segoe UI";
+}
+.check input {
+    margin-right: 5px;
+}
+.form-options {
+    margin: 14px 0;
+}
+.primary-btn {
+    background: #0000ee;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #0000ee;
+    color: white;
+    font-size: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family: "Segoe UI";
+}
+.br {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    color: #6b7983;
+    font-family: "Segoe UI";
+}
+.br::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #6b7983;
+    display: block;
+    position: absolute;
+    left: 19px;
+    top: 9px;
+    text-align: center;
+}
+.br::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #6b7983;
+    display: block;
+    position: absolute;
+    right: 19px;
+    top: 9px;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+.create-account h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Segoe UI";
+}
+.create-account {
+    font-family: "Segoe UI";
+    margin: 25px auto;
+}
+.m-container {
+    max-width: 1000px;
+}
+/* global styles  */
+.f-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.f-12 {
+    font-size: 12px;
+}
+.f-13 {
+    font-size: 13px;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-15 {
+    font-size: 15px;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-24 {
+    font-size: 24px;
+}
+.text-green {
+    color: #008800;
+}
+.dark-gray {
+    color: #444;
+}
+.light-gray {
+    color: #999999;
+}
+.gray-500 {
+    background-color: #eeeeee;
+}
+.f-500 {
+    font-weight: 500;
+}
+.f-700 {
+    font-weight: 700;
+}
+.max-w-100px {
+    max-width: 100px;
+}
+.flex-g-09 {
+    flex-grow: 0.9;
+}
+.max-w-182 {
+    max-width: 182px;
+}
+.max-670 {
+    max-width: 670px;
+}
+.ml-12 {
+    margin-left: 12px;
+}
+.text-black {
+    color: #222222 !important;
+}
+.w-90 {
+    width: 90px !important;
+}
+.w-87 {
+    width: 87px !important;
+}
+.w-80 {
+    width: 80px !important;
+}
+.max-730 {
+    max-width: 730px;
+}
+.max-591 {
+    max-width: 591px !important;
+}
+/* global styles end */
+.inner-header {
+    padding: 10px 5px;
+    background-color: #eeeeee;
+}
+.logo a {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    padding: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+}
+.header-right-area {
+    background-color: #fff;
+    padding: 5px 5px;
+}
+.radios-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.radios-list li {
+    margin-bottom: 5px;
+}
+.radios-list li:hover {
+    background-color: #eeeeee;
+}
+.secondry-btn {
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 22px;
+    padding: 1px 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.input-field {
+    border: 1px solid #008800;
+    width: 100%;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5px;
+}
+fieldset {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+}
+.legendtext {
+    background-color: #f7f7f7;
+    position: absolute;
+    top: -11px;
+    width: 106px;
+}
+.alert-text {
+    background-color: #ffff99;
+    max-width: 507px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.top-links {
+    position: relative;
+}
+.top-links li a,
+.top-links li {
+    color: #551a8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.details-list li {
+    list-style: disc;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer.secondry {
+    position: fixed;
+}
+.dollar-sign {
+    position: absolute;
+    top: 22PX;
+    left: 3px;
+    font-family: "Bitstream Vera Serif","Times New Roman",serif;
+    font-weight: 600;
+    font-size: 20px;
+    /* width: 100%; */
+}
+.select-field {
+    background-color: #FFF;
+    border: 1px solid #555555 !important;
+    padding: 0 10px;
+    border-radius: 0;
+}
+/* responsive  */
+/* @media (max-width: 1440px) {
+    :root {
+        font-size: 56%;
+    }
+}
+
+@media (max-width: 1280px) {
+    :root {
+        font-size: 48%;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        font-size: 46%;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        font-size: 40%;
+    }
+} */
