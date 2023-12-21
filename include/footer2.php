@@ -12,7 +12,6 @@
                     <a href="#">Marketing 101 app</a>
                     <a href="#"></a>
                     <a href="#">Marketing 101 is hiring</a>
-
                 </p>
             </div>
         </div>

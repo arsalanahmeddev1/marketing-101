@@ -112,7 +112,7 @@ delivery available</label>
                                     <div class="d-flex justify-content-between ">
                                         <div>
                                             <label for="fname" class="f-arial text-black ">example@example.com</label>
-                                            <h3 class="f-16 f-arial mb-0">replies use CL mail relay</h3>
+                                            <h3 class="f-16 f-arial mb-0">replies use Marketing-101 mail relay</h3>
                                             <a href="javascript:;">[?]</a>
                                         </div>
                                         <fieldset class="mt-4 max-730">

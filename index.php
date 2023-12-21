@@ -14,19 +14,19 @@
                         </div>
                         <ul class="list">
                             <li><a href="#">Marketing 101</a></li>
-                            <li><a href="#">help, faq, abuse, legal</a></li>
-                            <li><a href="#">avoid scams & fraud</a></li>
-                            <li><a href="#">personal safety tips</a></li>
+                            <li><a href="./about-help.php">help, faq, abuse, legal</a></li>
+                            <li><a href="./about-scams.php">avoid scams & fraud</a></li>
+                            <li><a href="./about-safety.php">personal safety tips</a></li>
                             <li><a href="#">terms of use</a></li>
                             <li><a href="#">privacy policy</a></li>
-                            <li><a href="#">system status</a></li>
+                            <li><a href="./system-status.php">system status</a></li>
                         </ul>
                         <ul class="list">
-                            <li><a href="#">About Marketing 101</a></li>
-                            <li><a href="#">Marketing 101 is hiring</a></li>
-                            <li><a href="#">What's new</a></li>
-                            <li><a href="#">Best-of-Marketing 101</a></li>
-                            <li><a href="#">Marketing 101 charitable</a></li>
+                            <li><a href="./about.php">About Marketing 101</a></li>
+                            <!-- <li><a href="#">Marketing 101 is hiring</a></li> -->
+                            <li><a href="./whats-new.php">What's new</a></li>
+                            <li><a href="./best-of-marketing.php">Best-of-Marketing 101</a></li>
+                            <li><a href="./charitable-form.php">Marketing 101 charitable</a></li>
                             <li><a href="#">Marketing 101 Newmark</a></li>
                             <li><a href="#">Philanthropies</a></li>
                         </ul>

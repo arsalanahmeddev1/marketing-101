@@ -42,7 +42,7 @@
                                             <ul class="radios-list ps-0">
                                                 <li class="d-flex gap-2 mb-0">
                                                     <input type="radio" id="radio3" name="location">
-                                                    <label for="radio3" class="f-arial">CL mail relay
+                                                    <label for="radio3" class="f-arial">Marketing-101 mail relay
                                                         (recommended)</label>
                                                 </li>
                                                 <li class="d-flex gap-2 mb-0">

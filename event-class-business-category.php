@@ -34,7 +34,7 @@
                                             appliances ($5)</label>
                                     </li>
                                     <li class="d-flex gap-2">
-                                        <input type="radio" id="radio4" name="location" class="location" value='sale-by-dealer-form'>
+                                        <input type="radio" id="radio4" name="location" class="location" value='sale-by-owner-form'>
                                         <label for="radio4" class="f-arial">
                                             appliances</label>
                                     </li>
@@ -45,7 +45,7 @@
                                             arts & crafts ($5)</label>
                                     </li>
                                     <li class="d-flex gap-2">
-                                        <input type="radio" id="radio6" name="location" class="location" value='sale-by-dealer-form'>
+                                        <input type="radio" id="radio6" name="location" class="location" value='sale-by-owner-form'>
                                         <label for="radio6" class="f-arial">
 
                                             arts & crafts</label>

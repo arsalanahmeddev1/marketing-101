@@ -7,7 +7,7 @@
             <div class="row pt-30 pb-30">
                 <div class="col-md-12">
                     <div class="mb-3">
-                        <b>one event per posting; please do not sell tickets for more than face value</b>
+                        <b>no online or virtual sales here please</b>
                     </div>
                     <form action="">
                         <div class="row align-items-center">
@@ -17,15 +17,16 @@
                             </div>
                             <div class="col-md-2">
                                 <div class="position-relative">
-                                    <label for="" class="f-13 f-arial text-green f-700  ">
+                                    <label for="" class="f-13 f-arial text-black f-700  ">
                                         price</label>
-                                    <span class="dollar-sign text-green">$</span>
+                                    <span class="dollar-sign">$</span>
                                 </div>
-                                <input type="number" class="input-field f-500 w-100 ps-3 ">
+                                <input type="number" class="input-field f-500 w-100 border-black ps-3 ">
                             </div>
                             <div class="col-md-4">
-                                <label for="" class="f-13 f-arial text-black f-700">city or neighborhood</label>
-                                <input type="text" class="input-field f-500 w-100 border-black">
+                                <label for="" class="f-13 f-arial text-black f-700">
+                                    city or neighborhood</label>
+                                <input type="text" class="input-field f-500 w-100 border-black ">
                             </div>
                             <div class="col-md-2 flex-grow-1 ">
                                 <label for="" class="f-13 f-arial text-green f-700">
@@ -40,33 +41,17 @@
                                 <fieldset class="mt-4">
                                     <legend class="legendtext text-black f-14 mb-0">posting details</legend>
                                     <div class="row">
-
-
                                         <div class="col-md-4">
                                             <label for="" class="f-13 f-arial text-green f-700">
-                                            number of tickets available</label>
-                                            <input type="number" class="input-field f-500 w-100 border-black ">
-                                            <label for="" class="f-13 f-arial text-black f-700">
-                                            venue</label>
-                                            <input type="text" class="input-field f-500 w-100 border-black ">
+                                                start time</label>
+                                            <input type="text" class="input-field f-500 w-100">
                                         </div>
                                         <div class="col-md-4">
                                             <div>
-                                                <label for="" class="f-13 f-arial text-green f-700">language of posting</label>
+                                                <label for="" class="f-13 f-arial text-green f-700">
+                                                    language of posting</label>
                                             </div>
-                                            <select class="form-select select-field" aria-label="Default select example">
-                                                <option selected>-</option>
-                                                <option value="1">new</option>
-                                                <option value="2">like new</option>
-                                                <option value="3">excellent</option>
-                                                <option value="4">good</option>
-                                                <option value="5">fair</option>
-                                                <option value="6">salvage</option>
-                                            </select>
-                                            <div>
-                                                <label for="" class="f-13 f-arial text-black f-700">event date</label>
-                                            </div>
-                                            <select class="form-select select-field" aria-label="Default select example">
+                                            <select class="form-select select-field border-gray" aria-label="Default select example">
                                                 <option selected>-</option>
                                                 <option value="1">new</option>
                                                 <option value="2">like new</option>
@@ -79,17 +64,41 @@
                                         <div class="col-md-4">
                                             <div>
                                                 <input type="checkbox" id="check1">
-                                                <label for="check1" class="f-arial">cryptocurrency ok</label>
+                                                <label for="check1" class="f-arial">
+                                                    include "more ads by this user" link</label>
                                             </div>
-                                            <div>
-                                                <input type="checkbox" id="check2">
-                                                <label for="check2" class="f-arial">
-delivery available</label>
-                                            </div>
-                                            <div>
-                                                <input type="checkbox" id="check2">
-                                                <label for="check2" class="f-arial">include "more ads by this user" link</label>
-                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <fieldset class="mt-4">
+                                                <legend class="legendtext text-green f-14  w-131">garage sale dates</legend>
+                                                <select class="form-select select-field mb-2 mt-2 border-gray" aria-label="Default select example">
+                                                    <option selected>-</option>
+                                                    <option value="1">new</option>
+                                                    <option value="2">like new</option>
+                                                    <option value="3">excellent</option>
+                                                    <option value="4">good</option>
+                                                    <option value="5">fair</option>
+                                                    <option value="6">salvage</option>
+                                                </select>
+                                                <select class="form-select select-field mb-2 border-gray" aria-label="Default select example">
+                                                    <option selected>-</option>
+                                                    <option value="1">new</option>
+                                                    <option value="2">like new</option>
+                                                    <option value="3">excellent</option>
+                                                    <option value="4">good</option>
+                                                    <option value="5">fair</option>
+                                                    <option value="6">salvage</option>
+                                                </select>
+                                                <select class="form-select select-field mb-2 border-gray" aria-label="Default select example">
+                                                    <option selected>-</option>
+                                                    <option value="1">new</option>
+                                                    <option value="2">like new</option>
+                                                    <option value="3">excellent</option>
+                                                    <option value="4">good</option>
+                                                    <option value="5">fair</option>
+                                                    <option value="6">salvage</option>
+                                                </select>
+                                            </fieldset>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -142,7 +151,7 @@ delivery available</label>
                                                         <input type="text" class="w-100 m-0 gray-500 show-phone-field input-bg-white" id="input3" disabled>
                                                     </div>
                                                     <p class="alert-text ml-12 d-none mt-3 max-591">
-                                                    ignore texts requesting your login or credit card. avoid scams
+                                                        ignore texts requesting your login or credit card. avoid scams
                                                     </p>
                                                 </div>
                                             </div>
